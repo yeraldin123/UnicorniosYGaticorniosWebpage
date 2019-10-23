@@ -1,0 +1,22 @@
+<html>
+    <head>
+    <title> Titulo de pagina </title>
+    </head>
+  
+    <body>
+        <h1>¿Que animal extraño eres?</h1>
+            <h6>nombre</h6>
+                <input type="name">
+            <h6>color favorito</h6>
+                <input type="color">
+            <h6>nacimiento</h6>
+                <input type="date">
+            <h6>telefono</h6>
+                <input type="number">
+             <h6>genero</h6>
+                <input type="radio">
+             <h6>signo zodiacal</h6>
+                <input type="radio">
+        <input type="reset">
+    </body>
+</html>
