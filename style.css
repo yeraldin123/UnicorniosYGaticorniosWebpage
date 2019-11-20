@@ -2,5 +2,22 @@ h1{
     font-style: italic;
     font-weight: bold;
     font-size: 80px;
-    color: blueviolet;
+    color: rgb(0, 0, 0);
 }
+body{
+    background-color: darkmagenta ;
+}
+.miparrafo{
+    font-style: italic
+}
+#mititle{
+    color: black;
+    font-size: 40px;
+}
+.img{
+    widows: 420px;
+    height: 160px;
+    display: block
+}
+
+    
