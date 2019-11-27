@@ -1,23 +1,31 @@
-h1{
-    font-style: italic;
-    font-weight: bold;
-    font-size: 80px;
-    color: rgb(0, 0, 0);
-}
 body{
-    background-color: darkmagenta ;
+    background-color: rgb(148, 63, 148) ;
 }
 .miparrafo{
-    font-style: italic
+    font-style: italic;
 }
 #mititle{
     color: black;
     font-size: 40px;
+    background-color:white; 
 }
 .img{
     widows: 420px;
     height: 160px;
-    display: block
 }
+
+ h1{
+    background-color: white;
+}
+
+a{
+    background-color: cornflowerblue    ;
+}
+
+a:hover{
+    background-color: cornflowerblue    ;
+    font-size: 20px;
+}
+
 
     
