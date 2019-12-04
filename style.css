@@ -1,5 +1,10 @@
+*{
+    margin: auto;
+}
+
 body{
     background-color: rgb(148, 63, 148) ;
+    text-align: center;
 }
 .miparrafo{
     font-style: italic;
@@ -7,11 +12,17 @@ body{
 #mititle{
     color: black;
     font-size: 40px;
-    background-color:white; 
+    background-color:white;
+    padding:15px ; 
 }
 .img{
     widows: 420px;
     height: 160px;
+    margin:20px;
+}
+img:hover{
+    width: 320px;
+    height: 320px;
 }
 
  h1{
@@ -26,6 +37,9 @@ a:hover{
     background-color: cornflowerblue    ;
     font-size: 20px;
 }
-
+p{
+   border: 2px solid black;
+    padding:20px;
+}
 
     
