@@ -20,12 +20,8 @@ body{
     height: 160px;
     margin:20px;
 }
-img:hover{
-    width: 320px;
-    height: 320px;
-}
 
- h1{
+h1{
     background-color: white;
 }
 
@@ -36,9 +32,7 @@ a{
 a:hover{
     background-color: cornflowerblue    ;
     font-size: 20px;
-}
-p{
-   border: 2px solid black;
+    border: 2px solid black;
     padding:20px;
 }
 .cuadro1{
@@ -47,49 +41,49 @@ p{
     border:black solid 2px;
     padding:40px;
     background-color: crimson;
-
-
+    
+    
     margin:20px;
-
+    
     font-family: fantasy;
     font-size: 20px;
-
+    
     position:estatico;
-    }
+}
 .cuadro2{
     width: 300px;
     height: 100px;
     border:black solid 2px;
     padding:40px;
     background-color:cyan;
-
-
+    
+    
     margin:20px;
-
+    
     font-family: fantasy;
     font-size: 20px;
-
+    
     position: relative;
     top: 20px;
     left: 40px;
 }
 .cuadro3{
-   width: 300PX;
-   height: 180px;
+    width: 300PX;
+    height: 180px;
     border:black solid 2px;
     padding:40px;
     background-color:darkorchid;
     width: 60PX;
-
+    
     margin:20px;
-
+    
     font-family: fantasy;
     font-size: 20px;
     position: fixed;
     bottom:20px;
     right: 40px;
-
-
+    
+    
 }
 .cuadro4{
     width: 180px;
@@ -97,12 +91,12 @@ p{
     border:black solid 2px;
     padding:40px;
     background-color:violet;
-
+    
     margin:20px;
-
+    
     font-family: fantasy;
     font-size: 20px;
-
+    
     position: absoluto;
     top: 40px;
     right: 40px;
@@ -112,11 +106,27 @@ p{
     right: 10%;
     border: black;
     padding: 10px;
-    background-color:rgba(rgb(217, 163, 238);
+    background-color:rgb(217, 163, 238);
     margin:20px;
-
-    font-family:fantasy
+    
+    font-family:fantasy;
     font-size: 20px;
-
+    
     float: right;
+}
+
+.img:hover{
+    transition-duration: .2s;
+    transition-timing-function: linear;
+    transform: scale(1.1);
+    filter: contrast(110%) saturate(150%);
+    border-radius: 15px;
+    
+}
+
+h1{
+    transition-delay: 1s;
+    transition-duration: .2s;
+    transition-timing-function: linear;
+    font-family: 'Bangers', cursive;
 }
