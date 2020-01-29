@@ -130,3 +130,32 @@ h1{
     transition-timing-function: linear;
     font-family: 'Bangers', cursive;
 }
+
+.cuadro3{
+animation-name: miAnimacion;
+animation-duration: 2000ms;
+animation-delay: 0.5s ;
+animation-timing-function: cubic-bezier(.cuadro3);
+animation-iteration-count: infinite;
+animation-direction::selection;
+}
+@keyframes miAnimacion{
+    0%{
+transform: scale(.65,.60)
+     }
+     20%{
+         transform: rotateX(3deg)
+     }
+    100%{
+        transform: translate(10px,40px);
+        filter: contrast(300%)
+    }
+}
+.cuadro1{
+animation-name: miAnimacion;
+animation-duration: 3000ms;
+animation-delay: 0.5s ;
+animation-timing-function: cubic-bezier(.cuadro3);
+animation-iteration-count: infinite;
+animation-direction:blank;
+}
